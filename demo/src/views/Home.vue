@@ -1,15 +1,17 @@
 <template>
-  <div class="home">你好</div>
+  <div class="home">
+    <van-card
+      num="2"
+      tag="标签"
+      price="2.00"
+      desc="描述信息"
+      title="商品标题"
+      thumb="https://img.yzcdn.cn/vant/ipad.jpeg"
+      origin-price="10.00"
+    />
+  </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
-export default {
-  name: "Home",
-  components: {
-    HelloWorld,
-  },
-};
+export default {};
 </script>
